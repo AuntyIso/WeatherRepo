@@ -54,7 +54,7 @@ main {
     font-weight: 900;
     margin: 0;
 }
-.temperature-now-icon {
+. temperature-now-icon {
     position: relative;
     top: -10px;
     font-size: 50px;
@@ -71,4 +71,5 @@ main {
 }
 .temperature-now-container {
     display: flex;
+    position: top;
 }
