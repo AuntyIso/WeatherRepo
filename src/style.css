@@ -1,11 +1,74 @@
 body {
-    background color: #f9f7fe;
+    background: #f9f7fe;
+    font-family: "Roboto", sans-serif;
+ } 
+ a {
+    color: #885df1;
  }
-.weatherRepo {
+ 
+.weatherrepo {
     background: white;
     max-width:  600px;
-    margin: 30px auto;
+    margin: 60px auto;
     padding: 30px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 20px; 
 }   
+
+header {
+    border-bottom: 1px solid #f9f7fe;
+    padding-bottom: 30px;
+}
+
+.search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgb(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 75%;
+    border-radius: 6px; 
+}
+.search-button {
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: #032a06;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+}
+main {
+    padding: 30px 0;
+}
+.temperature-now {
+    font-size: 48px;
+}
+.weather-now {
+    display: flex;
+    justify-content: space-between;
+}
+.current-city {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+.temperature-now-icon {
+    position: relative;
+    top: -10px;
+    font-size: 50px;
+    margin-right: 12px;
+}
+.temperature-now-value {
+    font-size: 85px;
+    font-weight: bold;
+}
+.temperature-now-unit {
+    font-size:  29px;
+    position: relative;
+    top: -38px;
+}
+.temperature-now-container {
+    display: flex;
+}
