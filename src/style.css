@@ -54,14 +54,14 @@ main {
     font-weight: 900;
     margin: 0;
 }
-. temperature-now-icon {
+.temperature-now-icon {
     position: relative;
-    top: -10px;
-    font-size: 50px;
-    margin-right: 12px;
+    top: -40px;
+    font-size: 40px;
+    margin-right: 1px;
 }
 .temperature-now-value {
-    font-size: 85px;
+    font-size: 70px;
     font-weight: bold;
 }
 .temperature-now-unit {
@@ -70,6 +70,7 @@ main {
     top: -38px;
 }
 .temperature-now-container {
-    display: flex;
-    position: top;
+    position: absolute;
+    top: 35%;
+    right: 20% ;
 }
