@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.city {
+.city { 
     font-size: 40px;
     font-weight: 900;
     margin: 0;
