@@ -26,7 +26,7 @@ header {
     color: rgb(39, 33, 66, 0.4);
     font-size: 16px;
     padding: 20px; 
-    max-width: 75%;
+    width: 75%;
     border-radius: 5px; 
 }
 .search-form-button {
@@ -46,6 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .city { 
     font-size: 40px;
     font-weight: 900;
@@ -77,6 +78,6 @@ footer {
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
 } 
