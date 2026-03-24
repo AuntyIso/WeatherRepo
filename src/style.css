@@ -50,12 +50,18 @@ header {
 .city { 
     font-size: 40px;
     font-weight: 900;
-    margin: 0;
+    margin: 0; 
 }
+
+.weather-details {
+
+    
+}
+
 .temperature-container {
-    position: absolute;
+    position: abslute;
     top: 35%;
-    right: 20% ;
+    right: 20%;
 }    
 
 .temperature-icon {
